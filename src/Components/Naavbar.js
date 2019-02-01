@@ -16,7 +16,7 @@ export default class Naavbar extends Component {
           className="navbar-brand"/>
         </Link>
          <ul className="navbar-nav align-items-center">
-         <li ckassName="nav-item ml-5">
+         <li className="nav-item ml-5">
           <Link to ="/" className="nav-link">
             Products
           </Link>

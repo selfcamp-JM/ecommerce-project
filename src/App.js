@@ -7,6 +7,7 @@ import Details from "./Components/Details"
 import Cart from "./Components/Cart"
 import ProductList from "./Components/ProductList"
 import Default from "./Components/Default"
+import Modal from "./Components/Modal"
 
 
 
@@ -22,6 +23,7 @@ class App extends Component {
                 <Route path ="/cart" component={Cart} />
                 <Route component={Default} />
               </Switch>
+              <Modal />
           </Fragment>
     )
   }
